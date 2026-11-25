@@ -1,0 +1,171 @@
+
+<html>
+<head>
+<title>About our Nation</title>
+
+<style>
+* {
+    color: black;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Roboto", sans-serif;
+    background: yellow;
+}
+
+.main-panel {
+    width: 100%;
+    max-width: 750px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px 10px 50px 10px;
+    border-radius: 5px;
+}  
+
+h1 {
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.form-group {
+    margin-top: 25px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+button {
+    border: none;
+    width: 100%;
+    height: 42px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main-panel">
+
+<h1>About our Nation</h1>
+
+<div class="row">
+    <div class="form-group">
+        <label>Name of the Nation:</label>
+        <input type="text" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="form-group">
+        <label>National Animal:</label>
+        <input type="text" />
+    </div>
+
+    <div class="form-group">
+        <label>National Bird:</label>
+        <input type="text" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="form-group">
+        <label>Capital city of the Nation:</label>
+        <input type="text" />
+    </div>
+
+    <div class="form-group">
+        <label>National Game:</label>
+        <input type="text" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="form-group">
+        <label>Your favariot state:</label>
+        <div>
+            <select>
+                <option>Select...</option>
+                <option>Tamilnadu</option>
+                <option>Kerela</option>
+                <option>Delhi</option>
+                <option>Pondicherry</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Which is the Independence day:</label>
+        <input type="date" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="form-group">
+        <label>Gender</label>
+        <div>
+            <input type="radio" name="g" /> Male
+            <input type="radio" name="g" /> Female
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="form-group">
+        <label>Select your  state</label>
+        <div>
+            <input type="checkbox" /> Tamilnadu
+            <input type="checkbox" /> Kerela
+            <input type="checkbox" /> Delhi
+            <input type="checkbox" /> Pondicherry
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="form-group">
+        <label>Address</label>
+        <textarea style="height:110px;"></textarea>
+    </div>
+</div>
+
+<div class="row">
+    <button type="submit">Submit</button>
+</div>
+
+</div>
+
+</body>
+</html>
